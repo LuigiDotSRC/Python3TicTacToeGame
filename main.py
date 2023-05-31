@@ -207,7 +207,7 @@ def game():
       p2move = input("PLAYER 2 (O): Enter Move > ")
       if (p2move in validspaces):
         moves.append("P2" + p2move)
-        for i in range(len(validspaces)):
+        for i in range(len(validspaces)-1):
           if (validspaces[i] == p2move):
             validspaces.pop(i)
         drawgame(moves)
