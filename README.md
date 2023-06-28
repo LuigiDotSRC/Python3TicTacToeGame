@@ -1,5 +1,22 @@
 # Python3TicTacToeGame
-Using Python, I recreated the Tic-Tac-Toe game which can be played directly in the terminal by executing the code
-2 players can play by typing the same terminal, a player wins when they control 3 consecutive spaces either 
-vertical, horizontal, or diagonal. The code itself uses brute-force to check whether the spaces the player 
-control is a win condition at the end of each player's turn to check if they have won. 
+---
+## Initialization:
+
+Install tkinter: 
+``` pip install tk ```
+
+Install ttkbootstrap: 
+``` pip install ttkbootstrap ```
+
+Run the program: 
+``` python3 main.py ```
+
+---
+## Key Takeaways: 
+- Use Tkinter for consructing interactive user-interfaces 
+- Implement the rules of Tic Tac Toe through Python
+
+---
+## Description: 
+
+Using Python, I implemented the rules of Tic-Tac-Toe through logic checks. The player's move is stored in a dictionary which will be checked to see if it matches a winning scenario. After learning Tkinter, I returned to this project to implement a GUI interface to make it easier for the user to play, rather then having to input commands on the terminal. 
